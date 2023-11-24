@@ -8,10 +8,23 @@ sites:
   - name: Web app
     url: https://app.builtview.com
   - name: Backend server
-    url: https://api.buitlview.com/api/ping
+    url: https://api.builtview.com/api/ping
   - name: Authentication
     url: https://builtview.b2clogin.com/builtview.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1A_SIGNUP_SIGNIN
+  - name: Image service
+    url: $IMAGE_SERVICE
+  - name: Mapping service
+    url: $MAPPING_SERVICE
+  - name: Export service
+    url: $EXPORT_SERVICE
+  #- name: AI Service
+  #  url: $AI_SERVICE
+  - name: Integration service
+    url: $INTEGRATION_SERVICE
 
+assignees:
+  - fwestling
+  
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
@@ -19,6 +32,7 @@ status-website:
   baseUrl: /status-page
   logoUrl: https://assets-global.website-files.com/6152ad87336c330bd1d4d50c/651f5592acd1cf1eb6a492a6_BV_Logo_HRZ_WHT2.svg
   name: BuiltView
+  theme: ocean
   introTitle: "BuiltView - Building confidence"
   introMessage: This status page uses **real-time** data
   navbar:
