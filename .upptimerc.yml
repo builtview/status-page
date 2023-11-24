@@ -18,7 +18,7 @@ sites:
   - name: Export service
     url: $EXPORT_SERVICE
   - name: AI Service
-   url: $AI_SERVICE
+    url: $AI_SERVICE
   - name: Integration service
     url: $INTEGRATE_SERVICE
 
