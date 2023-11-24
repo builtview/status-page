@@ -1,6 +1,6 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: builtview # Your GitHub organization or username, where this repository lives
+repo: status-page # The name of this repository
 
 sites:
   - name: Website
@@ -15,8 +15,8 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /builtview/status-page
+  # cname: demo.upptime.js.org
+  baseUrl: /builtview/status-page
   logoUrl: https://assets-global.website-files.com/6152ad87336c330bd1d4d50c/651f5592acd1cf1eb6a492a6_BV_Logo_HRZ_WHT2.svg
   name: BuiltView
   introTitle: "BuiltView - Building confidence"
