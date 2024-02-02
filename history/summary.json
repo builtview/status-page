@@ -96,18 +96,20 @@
     "url": "$MAPPING_SERVICE",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "mapping-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 771,
-    "timeDay": 813,
-    "timeWeek": 733,
-    "timeMonth": 778,
+    "timeDay": 800,
+    "timeWeek": 740,
+    "timeMonth": 779,
     "timeYear": 771,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-02-02": 0
+    }
   },
   {
     "name": "Export service",
