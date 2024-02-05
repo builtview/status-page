@@ -1,7 +1,7 @@
 url: $MAPPING_SERVICE
-status: down
-code: 503
-responseTime: 604
-lastUpdated: 2024-02-04T23:01:39.018Z
+status: up
+code: 200
+responseTime: 831
+lastUpdated: 2024-02-05T03:04:55.178Z
 startTime: 2023-11-24T00:54:43.319Z
 generator: Upptime <https://github.com/upptime/upptime>
